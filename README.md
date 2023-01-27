@@ -63,4 +63,4 @@ This project is still in progress until the usual Set operations are implemented
 The only significant area where the code could be improved is the remove() function. While JavaScript does implement garbage collection on its own, being used to C and assembly, just pointing the reference from one object to another object seems to be a bad practice. So, a better look into that concerns needs to be had.
 
 ## Contact
-Feel free to contact me @michaelrjamesjr on twitter or on github @micrjames or check out my blog at michaelrjames.hashnode.dev
+Feel free to contact me @micrjamesjr on twitter or on github @micrjames
