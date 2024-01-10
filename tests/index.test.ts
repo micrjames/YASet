@@ -25,10 +25,8 @@ describe("An implementation of Set.", () => {
 			expect(size).toBe(1);
 		});
 		test("Should delete the member.", () => {
-			console.log(set.size);
 		    set.delete(1);
 			expect(set.has(1)).toBeFalsy();
-			console.log(set.size);
 		});
 		test("Should clear the members.", () => {
 		    set.clear();

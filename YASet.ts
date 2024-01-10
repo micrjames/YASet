@@ -21,7 +21,6 @@ class YASet extends Collection {
 	  for(const index of indexes) {
 		 if(data[index] === element) {
 			delete data[index];
-			super._size--;
 		 }
 	  }
    }
