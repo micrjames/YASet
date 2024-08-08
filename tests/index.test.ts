@@ -1,4 +1,4 @@
-const { YASet } = require("../YASet");
+import { YASet } from "../YASet";
 
 describe("An implementation of Set.", () => {
     describe("Basic operations.", () => {

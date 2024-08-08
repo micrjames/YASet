@@ -1,7 +1,7 @@
-const { Collection } = require("../Collection/Collection");
+import { Collection } from "../Collection/Collection";
 import { dataObj } from "../Collection/utils/utils";
 
-class YASet extends Collection {
+export class YASet extends Collection {
    constructor() {
 	  super();
    }
@@ -29,5 +29,3 @@ class YASet extends Collection {
 		 this.delete(super._data[i]);
    }
 }
-
-exports.YASet = YASet;
