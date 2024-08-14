@@ -1,5 +1,5 @@
-import { Collection } from "../Collection/Collection";
-import { dataObj } from "../Collection/utils/utils";
+import { Collection } from "./Collection/Collection";
+import { dataObj } from "./Collection/utils/utils";
 
 export class YASet extends Collection {
    constructor() {
